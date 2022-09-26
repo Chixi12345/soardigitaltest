@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+
+  background: #e4e5e6;
+  margin: 0;
+  padding: 0;
+}
+
+.maintenance-bodyGen {
+  padding: 15px;
+}
+
+.maintenance-backGenFlex {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.maintenance-backArrow {
+  margin-right: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 5px;
+
+  color: #feb92c;
+}
+.maintenance-backText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+
+  color: #000000;
+}
+
+.maintenance-InfoGen {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.maintenance-InfoSingleFir {
+  width: 23%;
+  height: 150px;
+  background: #ebefff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.maintenance-InfoSingle {
+  width: 23%;
+  height: 150px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.maintenance-addBtn {
+  width: 60px;
+  height: 60px;
+  background: #b12129;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 50%;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.maintenance-InfoSingleFir:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.03);
+}
+.maintenance-btnText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+
+  color: #000000;
+}
+
+.maintenance-InfoSText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #000000;
+}
+
+.maintenance-InfoRes {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+
+  color: #000000;
+  margin-top: 5px;
+}
+
+.maintenanceTableGen {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .maintenance-InfoGen {
+    flex-direction: column;
+  }
+  .maintenance-InfoSingleFir {
+    width: 92%;
+    margin-top: 10px;
+  }
+
+  .maintenance-InfoSingle {
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

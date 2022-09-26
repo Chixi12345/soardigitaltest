@@ -1,0 +1,16 @@
+.MTableHeader-header-13 {
+  font-weight: 900;
+}
+
+.order_status_famGen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+/* table th {
+  font-weight: 900;
+} */

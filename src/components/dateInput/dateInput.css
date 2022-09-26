@@ -1,0 +1,28 @@
+.selectGenFam {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.selectGenLabel {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  align-items: flex-start;
+  text-align: left;
+  margin-left: 5%;
+  margin-bottom: 10px;
+}
+
+.dateInputMain input {
+  width: 90%;
+  border: 1px solid rgb(199, 197, 197);
+  outline: none;
+  height: 50px;
+  font-family: "poppins";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 10px;
+  color: #444;
+}

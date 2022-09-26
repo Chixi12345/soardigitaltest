@@ -1,0 +1,195 @@
+.menTag-tag-modal {
+  /* display: none; Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 300000000; /* Sit on top */
+  /* padding-top: 100px;  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background: rgba(3, 35, 46, 0.24);
+}
+
+/* Modal Content */
+.menTag-tag-modal-content {
+  position: relative;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  /* background-color: #fefefe; */
+  margin: auto;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  /* border: 1px solid #888; */
+  /* width: 80%; */
+  width: 40%;
+  height: 80%;
+  overflow-y: scroll;
+
+  background: #ffffff;
+  box-shadow: 4px 9px 20px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  -webkit-animation-name: animateright;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animateright;
+  animation-duration: 0.4s;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Add Animation */
+@-webkit-keyframes animateright {
+  from {
+    right: -300px;
+    opacity: 0;
+  }
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animateright {
+  from {
+    right: -300px;
+    opacity: 0;
+  }
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
+.login-fammm {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.create-account-btn {
+  width: 148px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+
+  background: #ffffff;
+  border: 1px solid #0c8dba;
+  border-radius: 4px;
+  color: #0c8dba;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.login-text-modal {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+
+  color: #03232e;
+  margin-bottom: 20px;
+}
+
+.cancel-icon-btn {
+  cursor: pointer;
+  margin-right: 5%;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.closeBody-FamGen {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.closeBody-FamText {
+  margin-left: 5%;
+  color: #000000;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.line-Bottom {
+  border-bottom: 1px solid rgb(192, 191, 191);
+  width: 100%;
+}
+
+.toggleFormGen {
+  background: #f2f2f2;
+  width: 90%;
+  height: 40px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.locationToggleF {
+  width: 45%;
+  height: 30px;
+  /* background: #fff; */
+  border-radius: 10px;
+  /* color: #b42930; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2%;
+  cursor: pointer;
+}
+.locationToggleF:hover {
+  background: #fff;
+  color: #b42930;
+}
+
+.systemToggleF {
+  width: 45%;
+  height: 30px;
+  /* background: #fff; */
+  border-radius: 10px;
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2%;
+  cursor: pointer;
+}
+
+.systemToggleF:hover {
+  background: #fff;
+  color: #b42930;
+}
+.dfdfdfdf {
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .menTag-tag-modal-content {
+    width: 80%;
+  }
+
+  .closeBody-FamText {
+    font-size: 18px;
+  }
+}
